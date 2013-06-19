@@ -17,15 +17,15 @@
 -- Nicolas Casalini "DarkGod"
 -- darkgod@te4.org
 
-name = "Example Module"
-long_name = "Example Module for T-Engine4"
-short_name = "example"
-author = { "DarkGod", "darkgod@te4.org" }
-homepage = "http://te4.org/modules:example"
-version = {1,0,4}
+name = "YOUJ"
+long_name = "You Joking?"
+short_name = "youj"
+author = { "fiddlerwoaroof", "webmaster@socraticum.com" }
+-- homepage = "http://te4.org/modules:example"
+version = {0,0,1}
 engine = {1,0,4,"te4"}
 description = [[
-This is *NOT* a game, just an example/template to make your own using the T-Engine4.
+Testing
 ]]
 starter = "mod.load"
-show_only_on_cheat = true -- Example modules are not shown to normal players
+allow_userchat = true
