@@ -1,0 +1,3 @@
+[submodule "te4_contest.wiki"]
+	path = te4_contest.wiki
+	url = git@github.com:fiddlerwoaroof/te4_contest.wiki.git
