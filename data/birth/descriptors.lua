@@ -22,12 +22,12 @@ newBirthDescriptor{
 	name = "base",
 	desc = {
 	},
+   talents = {},
 	experience = 1.0,
-
 	copy = {
-		max_level = 10,
-		lite = 4,
-		max_life = 25,
+		max_level = 12,
+		lite = 5,
+		max_life = 34,
 	},
 }
 
@@ -40,6 +40,8 @@ newBirthDescriptor{
 	},
 	talents = {
 		[ActorTalents.T_KICK]=1,
+		[ActorTalents.T_PUNCH]=1,
+		[ActorTalents.T_THROW]=1,
 	},
 }
 
@@ -54,3 +56,7 @@ newBirthDescriptor{
 		[ActorTalents.T_ACID_SPRAY]=1,
 	},
 }
+
+load("/data/birth/races/Gods.lua")
+load("/data/birth/races/Elves.lua")
+load("/data/birth/races/Dis.lua")
